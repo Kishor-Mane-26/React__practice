@@ -1,0 +1,23 @@
+.app{
+  padding:50px;
+  text-align:center;
+  min-height:100vh;
+  transition:all 1s;
+}
+
+.app.dark{
+  background-color: black;
+  color:white;
+}
+
+.app.light{
+  background-color:white;
+  color: black;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 50px;
+  cursor: pointer;
+}
