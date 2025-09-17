@@ -1,0 +1,33 @@
+/* Navbar container */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+/* List container */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;  /* spacing between menu items */
+  margin: 0;
+  padding: 0;
+}
+
+/* List items */
+.navbar li {
+  display: inline;
+}
+
+/* Links */
+.navbar .nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+/* Hover effect */
+.navbar .nav-link:hover {
+  color: yellow;
+}
+
